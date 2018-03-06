@@ -2,6 +2,7 @@
 Contoh tambal sulam kontrol perangkat keras lewat protokol tcp/ip.
 
 ======= FOLDER wemos-fw ==========
+
 Dalam folder wemos-fw terdapat firmware untuk perangkat keras yang akan dikontrol melalui protokol tcp/ip.
 Di sini kompilasi menggunakan plugin platformio dalam Microsoft Visual Code,
 dengan spesifikasi: platform espressif8266 dengan board adalah d1_mini_lite.
@@ -21,6 +22,7 @@ Konfigurasi:
 4. Ganti pin ledint untuk koneksi ke pin output: LED atau relay, dll.
 
 ====== FOLDER wemos-cmd-go ==========
+
 Dalam folder ini terdapat sebuah program sederhana dalam golang yang bisa digunakan untuk berinteraksi dengan firmware wemos-fw.
 Kompilasinya dapat dilakukan lewat perintah "go build"
 (program golang harus diinstal terlebih dahulu).
