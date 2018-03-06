@@ -29,7 +29,7 @@ Kompilasinya dapat dilakukan lewat perintah "go build"
 
 Cara penggunaan (setelah kompilasi):
 
-"wemos-cmd-go <set/get> <id> <iprange> <port> <cmd> <toggle>"
+wemos-cmd-go <set/get> <wemos-id> <iprange> <port> <cmd> <toggle>
 
 Misal:
 
