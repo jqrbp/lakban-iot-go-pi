@@ -28,8 +28,10 @@ Kompilasinya dapat dilakukan lewat perintah "go build"
 (program golang harus diinstal terlebih dahulu).
 
 Cara penggunaan (setelah kompilasi):
+
 wemos-cmd-go <set/get> <id> <iprange> <port> <cmd> <toggle>
 
 Misal:
+
 Set nilai 4 pin output (lihat pin tglint dalam wemos-fw) menjadi 0:
 wemos-cmd-go set wemos-00 192.168.10 8088 0000
